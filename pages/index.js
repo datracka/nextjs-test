@@ -1,10 +1,12 @@
 import Head from "../components/head";
+import Nav from "../components/nav";
 
 export default () => (
   <React.Fragment>
     <Head />
-    Hello world
-    <p>jsx scoped!</p>
+    <Nav />
+    Landing Page!
+    <p>jsx scoped just for you</p>
     <style jsx>{`
       p {
         color: blue;
